@@ -16,7 +16,7 @@ This repository contains solutions for the CIS 25 Midterm Exam (Spring 2025).
 - Program that declares and initializes variables of different data types.
 
 ### Part 4: Logical Operators and IF Statements
--**check()**: check three numbers in the array which is biggest using nested if statement and return the largest int.
+- **check()**: check three numbers in the array which is biggest using nested if statement and return the largest int.
 - Program to check if the year is leap year using logical operator
   
 ### Part 5: Switch Case
