@@ -8,16 +8,24 @@ using namespace std;
 int check(int a[]) {
 	//declare the largest number
 	int ans;
-	//loop to compare a[0] to other number
-	for (int i = 1;i <= 2;i++) {
-		//if a[0] is larger it is assigned to ans
-		if (a[0] > a[i]) {
+	//check if which 2nd number and 3rd number is larger
+	if (a[2] >= a[1]) {
+		//check if first number is larger than 3rd number and assign ans to that number
+		if (a[0] >= a[2]) {
 			ans = a[0];
 		}
-		//if a[0] is smaller current a[i] is assigned to ans
-		else
+		else {//else just assign ans to 3rd number
+			ans = a[2];
+		}
+	}
+	else
+	{	//check if first number is larger than 2rd number and assign ans to that number
+		if (a[0] >= a[1]) {
+			ans = a[0];
+		}
+		else//else just assign ans to 2rd number
 		{
-			ans = a[i];
+			ans = a[1];
 		}
 	}
 	return ans;
