@@ -12,7 +12,8 @@ int main()
 		}
 	}
 	// Second part
-	int a[9];
+	//declare array that store 10 numbers
+	int a[10];
 	for (int i = 0;i <10;i++) {
 		cout << "enter"<<i+1 << "number for second part: ";
 		cin >> a[i];//ask user input for 10 numbers
