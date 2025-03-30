@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 /**
-* Function to check the three number array which is largest
+* Function to check the three number array which is largest using nestle if statement
 * @param take in array containing user input
 * @return single largest int from the array
 */
